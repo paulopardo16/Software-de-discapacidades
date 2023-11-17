@@ -130,7 +130,7 @@ ul li:hover{
 }
 
 p{
-    font-size: 1vw;
+    font-size: 1rem;
     margin-left: 2vw;
 }
 
@@ -152,7 +152,7 @@ p{
     display: none;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
     .pantallas {
         display: none;
         flex-direction: column;
@@ -177,7 +177,7 @@ p{
 
     .titulo {
         text-align: center;
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .toggler {
@@ -199,9 +199,13 @@ p{
     .cerrar {
         display: none;
     }
+
+    p{
+        font-size: 1vw;
+    }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1501px) {
 
     .toggler {
         display: none;

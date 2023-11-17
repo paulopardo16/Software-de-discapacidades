@@ -1,0 +1,48 @@
+img {
+    border-radius: 50%;
+    width: 15vw;
+    margin: 1vw;
+}
+
+#imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1vw;
+    align-items: center;
+    justify-content: center;
+    transition: 3s ease;
+    animation: blocks 1.7s linear;
+}
+
+#text {
+    display: flex;
+    transition: .4s ease;
+    animation: blocks 1.5s linear;
+}
+
+#p2 {
+    margin: 1vw;
+}
+
+p2 {
+    font-size: 1.2rem;
+}
+
+@keyframes blocks {
+    from {
+        opacity: 0%;
+        transform: translate(-50%, 0);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translate(0, 0);
+    }
+}
+
+@media  (max-width: 1500px) {
+    #imgs{
+        grid-template-columns: 1fr;
+    }
+    
+}

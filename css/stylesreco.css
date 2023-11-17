@@ -1,0 +1,35 @@
+#block {
+    margin: 1vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    border-radius: 50%;
+    width: 15vw;
+    margin: 1vw;
+}
+
+#a {
+    margin: 1vw;
+    display: grid;
+    justify-items: center;
+}
+
+p4 {
+    font-size: 1.5rem;
+    margin: 1vw;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    #block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    #block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

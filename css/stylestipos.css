@@ -1,0 +1,62 @@
+img{
+    border-radius: 50%;
+    width: 11vw;
+    height: 11vw;
+    margin: 1vw;
+    justify-content: center;
+}
+
+.a{
+    display: flex;
+    margin: 1vw;
+    align-items: center;
+    transition: 3s ease;
+}
+
+#blocks{
+    animation: blocks 1.5s linear;
+}
+#blocks1{
+    animation: blocks 2s linear;
+}
+#blocks2{
+    animation: blocks 2.5s linear;
+}
+#blocks3{
+    animation: blocks 3s linear;
+}
+#blocks4{
+    animation: blocks 3.5s linear;
+}
+#blocks5{
+    animation: blocks 4s linear;
+}
+#blocks6{
+    animation: blocks 4.5s linear;
+}
+#blocks7{
+    animation: blocks 5s linear;
+}
+
+p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    font-size: 1.1rem;
+}
+
+#principal{
+    margin: 1vw;
+}
+
+@keyframes blocks {
+    from {
+        opacity: 0%;
+      transform: translate(-50%, 0);
+    }
+    to {
+        opacity: 100%;
+        transform: translate(0, 0);
+    }
+  }
